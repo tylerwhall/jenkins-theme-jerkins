@@ -1,0 +1,16 @@
+/* Yes, this is hacky and only works in Firefox */
+@-moz-document url-prefix("http://jerkins") {
+    #main-table {
+    background-image: url("http://tylerwhall.github.com/jenkins-theme-jerkins/RipRiley.png") !important;
+    background-size: 10% auto;
+    }
+    #top-panel td > a {
+    background: url("http://tylerwhall.github.com/jenkins-theme-jerkins/jerkins.png") 0 0 no-repeat;
+    background-position: top left;
+    display: block;
+    width: 130px;
+    height: 40px;
+    }
+    #top-panel td > a img {
+    display: none; }
+}
